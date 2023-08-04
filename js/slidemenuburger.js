@@ -35,7 +35,7 @@
 const menubuttonmobile = document.querySelector('.hamburgermobile');
 
 // The Close X
-const buttonxmobile = document.querySelector('.mobileburger');
+const buttonxmobile = document.querySelector('.mobileclose');
 
 // The Hamburger part
 const hamburgermobile = document.querySelector('.mobileburger');
@@ -49,5 +49,11 @@ menubuttonmobile.addEventListener('click', function () {
     console.log("You've pressed the Home Menu");
     // make hamburger dissapear
     hamburgermobile.classList.toggle('is-pressed');
+    // make button background dissapear
+    menubuttonmobile.classList.toggle('is-pressed');
+    // make close X appear
+    buttonxmobile.classList.toggle('is-shown');
+    // bring in the slide in menu
+    slide_in_mobile.classList.toggle('slide-in');
 });
 

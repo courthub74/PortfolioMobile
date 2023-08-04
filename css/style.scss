@@ -89,26 +89,27 @@ $lighterskills: #080e31;
                             opacity: 0;
                             z-index: 100;
                             img {
-                                 width: 10vw;
-                                 height: 10vw;
+                                 width: 12vw;
+                                 height: 12vw;
                             }
                         }
                         .mobileclose.is-shown {
                             opacity: 1;
                             color: white;
-                            width: 10vw;
-                            height: 10vw;
-                            transition: .9s;
+                            width: 12vw;
+                            height: 12vw;
+                            transition: .3s;
                         }
                         .mobileburger.is-pressed {
                             opacity: 0;
-                            transition: .9s;
+                            transition: .3s;
                         }
                     }
                     .hamburgermobile.is-pressed {
-                        color: white;
-                        font-size: 3vw;
+                        // opacity: 0;
+                        background-color: $mainblue;
                         transition: .3s;
+                        z-index: 100;
                     }
                 }
                 .mobile-nav-home {
@@ -116,13 +117,14 @@ $lighterskills: #080e31;
                     top: 0;
                     left: 100%;
                     height: 100vh;
+                    width: 100%;
                     display: block;
                     background-color: $mainblue;
-                    margin: 0 0 0 0;
+                    margin: 5vh 0 0 0;
                     transition: .7s;
                     z-index: 95;
                     .mobilelogohome {
-                        // margin: 5vh 15vw 0 0;
+                        margin: -3vh 0 0 1vw;
                         .navlogomobile {
                             margin: 0 0 0 3vw;
                             width: 40vw;
@@ -130,6 +132,7 @@ $lighterskills: #080e31;
                         }
                     }
                     .mobilelisthome {
+                        margin: 6vh 0 0 15vw;
                         a {
                             display: block;
                             text-align: left;
@@ -138,14 +141,14 @@ $lighterskills: #080e31;
                             font-family: 'Inter', sans-serif;
                             font-size: 7vw;
                             font-weight: bold;
-                            margin: 4vh 0 0 9vw;
+                            margin: 4vh 0 0 0;
                         }
                     }
                     .slidesocialsmobilehome {
                         display: flex;
                         flex-direction: row;
                         gap: 2vw;
-                        margin: 4vh 0 0 9vw;
+                        margin: 4vh 0 0 14vw;
                         img {
                             width: 15vw;
                             height: 15vw;

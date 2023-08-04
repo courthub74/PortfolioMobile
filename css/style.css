@@ -45,8 +45,8 @@
     border-radius: 40px;
     background-color: #36395D;
     width: 24vw;
-    height: 8vh;
-    margin: 7vh 0vh 0 20vw;
+    height: 6vh;
+    margin: 8vh 0vh 0 20vw;
   }
   * body .mobilecontainer #mobilehome .hamburgermobile .mobileburger {
     position: relative;
@@ -81,6 +81,7 @@
     background-color: #080E2F;
     transition: 0.3s;
     z-index: 100;
+    border: none;
   }
   * body .mobilecontainer .mobile-nav-home {
     position: fixed;
@@ -119,7 +120,7 @@
     display: flex;
     flex-direction: row;
     gap: 2vw;
-    margin: 4vh 0 0 14vw;
+    margin: 7vh 0 0 14vw;
   }
   * body .mobilecontainer .mobile-nav-home .slidesocialsmobilehome img {
     width: 15vw;
@@ -133,7 +134,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6vh 0 0 0;
+    margin: 3vh 0 0 0;
   }
   * body .mobilecontainer .bottomhomemobile .photomobile {
     display: flex;
@@ -189,5 +190,20 @@
     font-family: "Inter", sans-serif;
     color: #EBEBEB;
     font-size: 4vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile {
+    background-color: #0E4946;
+    color: white;
+    height: 100vh;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile {
+    display: flex;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile {
+    margin: 5vh 0 0 5vh;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */

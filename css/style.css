@@ -46,7 +46,7 @@
     background-color: #36395D;
     width: 24vw;
     height: 6vh;
-    margin: 8vh 0vh 0 20vw;
+    margin: 4vh 0vh 0 20vw;
   }
   * body .mobilecontainer #mobilehome .hamburgermobile .mobileburger {
     position: relative;
@@ -205,5 +205,34 @@
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile h1 {
     font-size: 10vw;
     font-family: "Inter", sans-serif;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #627C7A;
+    background-color: #627C7A;
+    width: 24vw;
+    height: 6vh;
+    margin: 5vh 0vh 0 20vw;
+    border-radius: 40px;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileburger {
+    position: relative;
+    width: 14vw;
+    height: 14vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileclose {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileclose img {
+    width: 12vw;
+    height: 12vw;
   }
 }/*# sourceMappingURL=style.css.map */

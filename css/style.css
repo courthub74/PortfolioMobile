@@ -12,14 +12,30 @@
   }
   * body .mobilecontainer #mobilehome .tophomemobile {
     display: flex;
-    justify-content: space-between;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .logomobile {
-    margin: 2vh 0 0 3vw;
+    opacity: 1;
+    margin: 2vh 0 0 5.5vw;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .logomobile #logomobile {
     width: 40vw;
     height: 40vw;
+  }
+  * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu {
+    opacity: 0;
+    margin: 2vh 0 0 -40vw;
+  }
+  * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu #navlogomenu {
+    width: 40vw;
+    height: 40vw;
+  }
+  * body .mobilecontainer #mobilehome .tophomemobile .logomobile.dissapear {
+    opacity: 0;
+    transition: 0.9s;
+  }
+  * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu.appear {
+    opacity: 1;
+    transition: 0.9s;
   }
   * body .mobilecontainer #mobilehome .hamburgermobile {
     display: flex;
@@ -30,7 +46,7 @@
     background-color: #36395D;
     width: 24vw;
     height: 8vh;
-    margin: 7vh 4vh 0 0;
+    margin: 7vh 0vh 0 20vw;
   }
   * body .mobilecontainer #mobilehome .hamburgermobile .mobileburger {
     position: relative;
@@ -74,7 +90,7 @@
     width: 100%;
     display: block;
     background-color: #080E2F;
-    margin: 5vh 0 0 0;
+    margin: 20vh 0 0 0;
     transition: 0.7s;
     z-index: 95;
   }
@@ -87,7 +103,7 @@
     height: 40vw;
   }
   * body .mobilecontainer .mobile-nav-home .mobilelisthome {
-    margin: 6vh 0 0 15vw;
+    margin: 6vh 0 0 14vw;
   }
   * body .mobilecontainer .mobile-nav-home .mobilelisthome a {
     display: block;

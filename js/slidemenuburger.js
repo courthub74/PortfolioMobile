@@ -43,6 +43,12 @@ const hamburgermobile = document.querySelector('.mobileburger');
 // The Slide In Menu
 const slide_in_mobile = document.querySelector('.mobile-nav-home');
 
+// The Top Courdevs Logo
+const toplogo = document.querySelector('.logomobile');
+
+// The Nav Courdevs Logo
+const menulogo = document.querySelector('.navlogomenu');
+
 // add event listener to the whole button
 menubuttonmobile.addEventListener('click', function () {
     // test print
@@ -55,5 +61,9 @@ menubuttonmobile.addEventListener('click', function () {
     buttonxmobile.classList.toggle('is-shown');
     // bring in the slide in menu
     slide_in_mobile.classList.toggle('slide-in');
+    // make top logo dissapear
+    toplogo.classList.toggle('dissapear');
+    // make nav logo appear
+    menulogo.classList.toggle('appear');
 });
 

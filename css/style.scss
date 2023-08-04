@@ -55,13 +55,35 @@ $lighterskills: #080e31;
                     height: 100vh;
                     .tophomemobile {
                         display: flex;
-                        justify-content: space-between;
+                        // justify-content: space-between;
+
+                        // MAIN LOGO
                         .logomobile {
-                            margin: 2vh 0 0 3vw;
+                            opacity: 1;
+                            margin: 2vh 0 0 5.5vw;
                            #logomobile {
                             width: 40vw;
                             height: 40vw;
                            }
+                        }
+                        // NAV LOGO
+                        .navlogomenu {
+                            opacity: 0;
+                            margin: 2vh 0 0 -40vw;
+                            #navlogomenu {
+                                width: 40vw;
+                                height: 40vw;
+                            }
+                        }
+                        // make first logo dissapear
+                        .logomobile.dissapear {
+                            opacity: 0;
+                            transition: .9s;
+                        }
+                        // make second logo appear
+                        .navlogomenu.appear {
+                            opacity: 1;
+                            transition: .9s;
                         }
                     }
                     .hamburgermobile {
@@ -73,7 +95,7 @@ $lighterskills: #080e31;
                         background-color: $portfolios;
                         width: 24vw;
                         height: 8vh;
-                        margin: 7vh 4vh 0 0;
+                        margin: 7vh 0vh 0 20vw;
                         // Burger img
                         .mobileburger {
                             position: relative;
@@ -120,7 +142,7 @@ $lighterskills: #080e31;
                     width: 100%;
                     display: block;
                     background-color: $mainblue;
-                    margin: 5vh 0 0 0;
+                    margin: 20vh 0 0 0;
                     transition: .7s;
                     z-index: 95;
                     .mobilelogohome {
@@ -132,7 +154,7 @@ $lighterskills: #080e31;
                         }
                     }
                     .mobilelisthome {
-                        margin: 6vh 0 0 15vw;
+                        margin: 6vh 0 0 14vw;
                         a {
                             display: block;
                             text-align: left;

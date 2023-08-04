@@ -128,4 +128,66 @@
   * body .mobilecontainer .mobile-nav-home.slide-in {
     left: 0;
   }
+  * body .mobilecontainer .bottomhomemobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh 0 0 0;
+  }
+  * body .mobilecontainer .bottomhomemobile .photomobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid #36395D;
+    border-radius: 50%;
+  }
+  * body .mobilecontainer .bottomhomemobile .photomobile img {
+    border-radius: 50%;
+    width: 60vw;
+    height: 60vw;
+  }
+  * body .mobilecontainer .bottomhomemobile .nameheadermobile {
+    margin: 6vh 0 0 0;
+  }
+  * body .mobilecontainer .bottomhomemobile .nameheadermobile #namemobile {
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+  }
+  * body .mobilecontainer .bottomhomemobile .nameheadermobile #jobdescripmobile {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #B7BCD6;
+    font-size: 5vw;
+  }
+  * body .mobilecontainer .bottomhomemobile .catchphrasemobile {
+    margin: 8vh 0 0 0;
+    text-align: center;
+  }
+  * body .mobilecontainer .bottomhomemobile .catchphrasemobile #catchphrasemobile {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 4vw;
+  }
+  * body .mobilecontainer .bottomhomemobile .portfoliobuttonmobile {
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    padding: 2vw;
+    width: 40vw;
+    height: 5vw;
+    text-align: center;
+    margin: 8vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .mobilecontainer .bottomhomemobile .portfoliobuttonmobile a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #EBEBEB;
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=style.css.map */

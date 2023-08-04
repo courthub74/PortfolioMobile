@@ -181,6 +181,70 @@ $lighterskills: #080e31;
                 .mobile-nav-home.slide-in {
                     left: 0;
                 }
+                // BOTTOM of the home section
+                .bottomhomemobile {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 6vh 0 0 0;
+                    .photomobile{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 8px solid $portfolios;
+                        border-radius: 50%;
+                        img {
+                            border-radius: 50%;
+                            width: 60vw;
+                            height: 60vw;
+                        }
+                    }
+                    .nameheadermobile {
+                        margin: 6vh 0 0 0;
+                        #namemobile {
+                            font-size: 8vw;
+                            font-weight: bold;
+                            font-family: 'Inter', sans-serif;
+                            color: $skillswhite;
+                        }
+                        #jobdescripmobile {
+                            font-family: 'Inter', sans-serif;
+                            text-align: center;
+                            color: $socialsgrey;
+                            font-size: 5vw;
+                        }
+                    }
+                    .catchphrasemobile {
+                        margin: 8vh 0 0 0;
+                        text-align: center;
+                        #catchphrasemobile {
+                            // font-family: 'Inter', sans-serif;
+                            font-family: 'Roboto', sans-serif;
+                            color: $skillswhite;
+                            font-size: 4vw;
+                        }
+                    }
+                    .portfoliobuttonmobile {
+                        border: 1px solid $portfolios;
+                        border-radius: 30px;
+                        background-color: $portfolios;
+                        padding: 2vw;
+                        width: 40vw;
+                        height: 5vw;
+                        text-align: center;
+                        margin: 8vh 0 0 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        a {
+                            text-decoration: none;
+                            font-family: 'Inter', sans-serif;
+                            color: $learnmorebutton;
+                            font-size: 4vw;
+                        }
+                    }
+                }
             }
         }
     }

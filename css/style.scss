@@ -46,6 +46,7 @@ $greywords: rgb(206, 206, 212);
 
 // BACKGROUND COLORS
 $logobackgrey1: #868383;
+$logobackgrey2: #555252;
 
 // MAIN SMARTPHONE VERSION (from 0px to 500px)
 @media screen and (max-width:500px) {
@@ -66,7 +67,7 @@ $logobackgrey1: #868383;
                             .logomobile {
                                 position: fixed;
                                 opacity: 1;
-                                margin: 2vh 0 0 5.5vw;
+                                margin: 3.5vh 0 0 7vw;
                                 #logomobile {
                                     width: 35vw;
                                     height: 35vw;
@@ -75,11 +76,11 @@ $logobackgrey1: #868383;
                              // BACKGROUND CIRCLE
                             .backcircle {
                                 // position: absolute;
-                                width: 30vw;
+                                width: 31vw;
                                 height: 30vw;
-                                background-color: $logobackgrey1;
+                                background-color: white;
                                 border-radius: 50%;
-                                margin: 3vh 0 0 8.5vw;
+                                margin: 5vh 0 0 10vw;
                             }
                             // make first logo dissapear
                             .logomobile.dissapear {
@@ -95,7 +96,7 @@ $logobackgrey1: #868383;
                         // NAV LOGO
                         .navlogomenu {
                             opacity: 0;
-                            margin: 1vh 0 0 -36vw;
+                            margin: 2.5vh 0 0 -37vw;
                             #navlogomenu {
                                 width: 40vw;
                                 height: 40vw;

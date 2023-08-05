@@ -16,18 +16,18 @@
   * body .mobilecontainer #mobilehome .tophomemobile .logocircles .logomobile {
     position: fixed;
     opacity: 1;
-    margin: 2vh 0 0 5.5vw;
+    margin: 3.5vh 0 0 7vw;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .logocircles .logomobile #logomobile {
     width: 35vw;
     height: 35vw;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .logocircles .backcircle {
-    width: 30vw;
+    width: 31vw;
     height: 30vw;
-    background-color: #868383;
+    background-color: white;
     border-radius: 50%;
-    margin: 3vh 0 0 8.5vw;
+    margin: 5vh 0 0 10vw;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .logocircles .logomobile.dissapear {
     opacity: 0;
@@ -38,7 +38,7 @@
   }
   * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu {
     opacity: 0;
-    margin: 1vh 0 0 -36vw;
+    margin: 2.5vh 0 0 -37vw;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu #navlogomenu {
     width: 40vw;

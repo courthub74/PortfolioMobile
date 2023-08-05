@@ -49,6 +49,9 @@ const toplogo = document.querySelector('.logomobile');
 // The Nav Courdevs Logo
 const menulogo = document.querySelector('.navlogomenu');
 
+// The Logo Background Circle
+const logoback = document.querySelector('.backcircle');
+
 // add event listener to the whole button
 menubuttonmobile.addEventListener('click', function () {
     // test print
@@ -65,5 +68,7 @@ menubuttonmobile.addEventListener('click', function () {
     toplogo.classList.toggle('dissapear');
     // make nav logo appear
     menulogo.classList.toggle('appear');
+    // make background dissapear
+    logoback.classList.toggle('dissapear');
 });
 

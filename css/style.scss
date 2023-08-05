@@ -86,11 +86,16 @@ $logobackgrey1: #868383;
                                 opacity: 0;
                                 transition: .9s;
                             }
+                            // make background dissapear
+                            .backcircle.dissapear {
+                                opacity: 0;
+                                // transition: .9s;
+                            }
                         }
                         // NAV LOGO
                         .navlogomenu {
                             opacity: 0;
-                            margin: 1vh 0 0 -35vw;
+                            margin: 1vh 0 0 -36vw;
                             #navlogomenu {
                                 width: 40vw;
                                 height: 40vw;

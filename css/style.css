@@ -33,9 +33,12 @@
     opacity: 0;
     transition: 0.9s;
   }
+  * body .mobilecontainer #mobilehome .tophomemobile .logocircles .backcircle.dissapear {
+    opacity: 0;
+  }
   * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu {
     opacity: 0;
-    margin: 1vh 0 0 -35vw;
+    margin: 1vh 0 0 -36vw;
   }
   * body .mobilecontainer #mobilehome .tophomemobile .navlogomenu #navlogomenu {
     width: 40vw;

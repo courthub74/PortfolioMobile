@@ -44,6 +44,9 @@ $lighterskills: #080e31;
 $greyback: #A6A6A6;
 $greywords: rgb(206, 206, 212);
 
+// BACKGROUND COLORS
+$logobackgrey1: #868383;
+
 // MAIN SMARTPHONE VERSION (from 0px to 500px)
 @media screen and (max-width:500px) {
     * {
@@ -58,30 +61,40 @@ $greywords: rgb(206, 206, 212);
                     height: 100vh;
                     .tophomemobile {
                         display: flex;
-                        // justify-content: space-between;
-
-                        // MAIN LOGO
-                        .logomobile {
-                            opacity: 1;
-                            margin: 2vh 0 0 5.5vw;
-                           #logomobile {
-                            width: 40vw;
-                            height: 40vw;
-                           }
+                        .logocircles {
+                            // MAIN LOGO
+                            .logomobile {
+                                position: fixed;
+                                opacity: 1;
+                                margin: 2vh 0 0 5.5vw;
+                                #logomobile {
+                                    width: 35vw;
+                                    height: 35vw;
+                                }
+                            }
+                             // BACKGROUND CIRCLE
+                            .backcircle {
+                                // position: absolute;
+                                width: 30vw;
+                                height: 30vw;
+                                background-color: $logobackgrey1;
+                                border-radius: 50%;
+                                margin: 3vh 0 0 8.5vw;
+                            }
+                            // make first logo dissapear
+                            .logomobile.dissapear {
+                                opacity: 0;
+                                transition: .9s;
+                            }
                         }
                         // NAV LOGO
                         .navlogomenu {
                             opacity: 0;
-                            margin: 2vh 0 0 -40vw;
+                            margin: 1vh 0 0 -35vw;
                             #navlogomenu {
                                 width: 40vw;
                                 height: 40vw;
                             }
-                        }
-                        // make first logo dissapear
-                        .logomobile.dissapear {
-                            opacity: 0;
-                            transition: .9s;
                         }
                         // make second logo appear
                         .navlogomenu.appear {
@@ -100,7 +113,7 @@ $greywords: rgb(206, 206, 212);
                         // background-color: $mainblue;
                         width: 24vw;
                         height: 6vh;
-                        margin: 4vh 0vh 0 20vw;
+                        margin: 7.5vh 0vh 0 20vw;
                         // Burger img
                         .mobileburger {
                             position: relative;
@@ -193,12 +206,13 @@ $greywords: rgb(206, 206, 212);
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin: 3vh 0 0 0;
+                    margin: 2vh 0 0 0;
                     .photomobile{
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         border: 8px solid $portfolios;
+                        // border: 8px solid #c4c4c4;
                         border-radius: 50%;
                         img {
                             border-radius: 50%;

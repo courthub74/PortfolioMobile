@@ -321,6 +321,40 @@ $logobackgrey2: #555252;
                             }
                         }
                     }
+                    // BOTTOM OF ABOUT SECTION TABLET
+                    .bottomaboutmobile {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        line-height: 1.8;
+                        margin: 2vh 0 0 0;
+                        .infotablet {
+                            font-family: 'Roboto', sans-serif;
+                            text-align: left;
+                            padding: 5vh;
+                            font-size: 4vw; 
+                        }
+                        .resumemobile {
+                            border: 1px solid $experiencegreenbutton;
+                            border-radius: 40px;
+                            width: 40vw;
+                            height: 5vw;
+                            background-color: $experiencegreenbutton;
+                            padding: 2vw;
+                            margin: 5vh 0 0 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            a {
+                                    font-family: 'Inter', sans-serif;
+                                    text-decoration: none;
+                                    color: $learnmorebutton;
+                                    text-align: center;
+                                    font-size: 4vw;
+                            }
+                        }
+                    }
                 }
             }
         }

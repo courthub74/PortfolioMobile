@@ -246,4 +246,37 @@
     width: 12vw;
     height: 12vw;
   }
+  * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+    margin: 2vh 0 0 0;
+  }
+  * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile .infotablet {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    padding: 5vh;
+    font-size: 4vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile .resumemobile {
+    border: 1px solid #476D6B;
+    border-radius: 40px;
+    width: 40vw;
+    height: 5vw;
+    background-color: #476D6B;
+    padding: 2vw;
+    margin: 5vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile .resumemobile a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=style.css.map */

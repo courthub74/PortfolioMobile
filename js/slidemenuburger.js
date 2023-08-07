@@ -34,7 +34,7 @@
 const bodybody = document.querySelector('.body');
 
 
-// HOME SECTION
+// HOME SECTION MENU BUTTON
 
 // Whole Button
 const menubuttonmobile = document.querySelector('.hamburgermobile');
@@ -77,6 +77,21 @@ menubuttonmobile.addEventListener('click', function () {
     logoback.classList.toggle('dissapear');
     // stop the scroll
     bodybody.classList.toggle('no-scroll');
+});
+
+// NAV MENU SELECTIONS HOME PAGE
+
+// HOME HOME SELECTION
+
+// query HOME page selection
+const home_menu_home = document.getElementById('home_home');
+
+// add event listener
+home_menu_home.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed Home Home");
+    // slide menu away
+    // go to the Home section
 });
 
 // ABOUT SECTION

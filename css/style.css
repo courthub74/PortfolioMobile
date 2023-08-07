@@ -210,10 +210,10 @@
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile {
     display: flex;
   }
-  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile {
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titleabout {
     margin: 5vh 0 0 5vh;
   }
-  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile h1 {
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titleabout h1 {
     font-size: 10vw;
     font-family: "Inter", sans-serif;
   }
@@ -233,6 +233,10 @@
     width: 14vw;
     height: 14vw;
   }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileburger.is-pressed {
+    opacity: 0;
+    transition: 0.9s;
+  }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileclose {
     width: 30vw;
     height: 5vh;
@@ -245,6 +249,18 @@
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileclose img {
     width: 12vw;
     height: 12vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile .aboutmobileclose.is-shown {
+    opacity: 1;
+    color: white;
+    width: 12vw;
+    height: 12vw;
+    transition: 0.3s;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile.is-pressed {
+    border: 1px solid #0E4946;
+    transition: 0.9s;
+    background-color: #0E4946;
   }
   * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile {
     display: flex;

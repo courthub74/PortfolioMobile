@@ -159,6 +159,7 @@ $logobackgrey2: #555252;
                         border: none;
                     }
                 }
+                // THE HOME MOBILE MENU
                 .mobile-nav-home {
                     position: fixed;
                     top: 0;
@@ -283,7 +284,7 @@ $logobackgrey2: #555252;
                     // TOP of the about section
                     .topaboutmobile {
                         display: flex;
-                        .titlemobile {
+                        .titleabout {
                             margin: 5vh 0 0 5vh;
                             h1 {
                                 font-size: 10vw;
@@ -306,6 +307,10 @@ $logobackgrey2: #555252;
                                 width: 14vw;
                                 height: 14vw;
                             }
+                            .aboutmobileburger.is-pressed {
+                                opacity: 0;
+                                transition: .9s;
+                            }
                             .aboutmobileclose {
                                 width: 30vw;
                                 height: 5vh;
@@ -319,6 +324,19 @@ $logobackgrey2: #555252;
                                     height: 12vw;
                                 }
                             }
+                            .aboutmobileclose.is-shown {
+                                opacity: 1;
+                                color: white;
+                                width: 12vw;
+                                height: 12vw;
+                                transition: .3s;
+                            }
+                        }
+                        .abouthamburgermobile.is-pressed {
+                            // opacity: 0;
+                            border: 1px solid $aboutgreen;
+                            transition: .9s;
+                            background-color: $aboutgreen;
                         }
                     }
                     // BOTTOM OF ABOUT SECTION TABLET

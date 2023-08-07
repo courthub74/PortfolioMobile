@@ -72,3 +72,31 @@ menubuttonmobile.addEventListener('click', function () {
     logoback.classList.toggle('dissapear');
 });
 
+// ABOUT SECTION
+
+// Whole About Button
+const menubuttonabout = document.querySelector('.abouthamburgermobile');
+
+// The Close X
+const buttonxabout = document.querySelector('.aboutmobileclose');
+
+// The Hamburger
+const hamburgerabout = document.querySelector('.aboutmobileburger');
+
+// The Slide In Menu
+const slide_in_about = document.querySelector('.mobile-nav-about');
+
+// The Page Title
+const abouttitle = document.querySelector('.titleabout');
+
+// add event listener to the whole button
+menubuttonabout.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the about menu button");
+    // make hamburger dissapear
+    hamburgerabout.classList.toggle('is-pressed');
+    // make button background dissapear
+    menubuttonabout.classList.toggle('is-pressed');
+    // make the close X appear
+    buttonxabout.classList.toggle('is-shown');
+});

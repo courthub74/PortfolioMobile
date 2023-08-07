@@ -266,6 +266,49 @@
     transition: 0.9s;
     background-color: #0E4946;
   }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    background-color: #0E4946;
+    margin: 20vh 0 0 0;
+    transition: 0.7s;
+    z-index: 95;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelogoabout {
+    margin: -3vh 0 0 1vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelogoabout .navlogoabout {
+    margin: 0 0 0 3vw;
+    width: 40vw;
+    height: 40vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelistabout {
+    margin: 6vh 0 0 14vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelistabout a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 4vh 0 0 0;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .slidesocialsmobileabout {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 7vh 0 0 14vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .slidesocialsmobileabout img {
+    width: 15vw;
+    height: 15vw;
+  }
   * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile {
     display: flex;
     flex-direction: column;

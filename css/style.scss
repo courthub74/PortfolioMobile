@@ -291,6 +291,10 @@ $logobackgrey2: #555252;
                                 font-family: 'Inter', sans-serif;
                             }
                         }
+                        .titleabout.dissapear {
+                            opacity: 0;
+                            transition: .9s;
+                        }
                         .abouthamburgermobile {
                             display: flex;
                             justify-content: center;

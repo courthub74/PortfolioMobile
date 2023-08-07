@@ -99,4 +99,6 @@ menubuttonabout.addEventListener('click', function () {
     menubuttonabout.classList.toggle('is-pressed');
     // make the close X appear
     buttonxabout.classList.toggle('is-shown');
+    // make the About Title dissapear
+    abouttitle.classList.toggle('dissapear');
 });

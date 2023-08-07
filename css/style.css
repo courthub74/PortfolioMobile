@@ -217,6 +217,10 @@
     font-size: 10vw;
     font-family: "Inter", sans-serif;
   }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titleabout.dissapear {
+    opacity: 0;
+    transition: 0.9s;
+  }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .abouthamburgermobile {
     display: flex;
     justify-content: center;

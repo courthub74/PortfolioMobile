@@ -58,6 +58,7 @@
     width: 24vw;
     height: 6vh;
     margin: 7.5vh 0vh 0 20vw;
+    margin: 5vh 0vh 0 20vw;
   }
   * body .mobilecontainer #mobilehome .hamburgermobile .mobileburger {
     position: relative;
@@ -115,7 +116,7 @@
     height: 40vw;
   }
   * body .mobilecontainer .mobile-nav-home .mobilelisthome {
-    margin: 6vh 0 0 14vw;
+    margin: 6vh 0 0 12vw;
   }
   * body .mobilecontainer .mobile-nav-home .mobilelisthome a {
     display: block;
@@ -131,7 +132,7 @@
     display: flex;
     flex-direction: row;
     gap: 2vw;
-    margin: 7vh 0 0 14vw;
+    margin: 7vh 0 0 11vw;
   }
   * body .mobilecontainer .mobile-nav-home .slidesocialsmobilehome img {
     width: 15vw;
@@ -274,7 +275,7 @@
     width: 100%;
     display: block;
     background-color: #0E4946;
-    margin: 20vh 0 0 0;
+    margin: 5vh 5vw 0 0;
     transition: 0.7s;
     z-index: 95;
   }
@@ -287,7 +288,7 @@
     height: 40vw;
   }
   * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelistabout {
-    margin: 6vh 0 0 14vw;
+    margin: 6vh 0 0 12vw;
   }
   * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelistabout a {
     display: block;
@@ -303,11 +304,14 @@
     display: flex;
     flex-direction: row;
     gap: 2vw;
-    margin: 7vh 0 0 14vw;
+    margin: 7vh 0 0 11vw;
   }
   * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .slidesocialsmobileabout img {
     width: 15vw;
     height: 15vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about.slide-in {
+    left: 0;
   }
   * body #aboutmobilecontainer #aboutmobile .bottomaboutmobile {
     display: flex;
@@ -341,5 +345,8 @@
     color: #EBEBEB;
     text-align: center;
     font-size: 4vw;
+  }
+  * .body.no-scroll {
+    overflow: hidden;
   }
 }/*# sourceMappingURL=style.css.map */

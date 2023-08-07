@@ -28,6 +28,11 @@
 
 // toggle the css class to slide in
 
+// For NO SCROLL
+
+// query the body
+const bodybody = document.querySelector('.body');
+
 
 // HOME SECTION
 
@@ -70,6 +75,8 @@ menubuttonmobile.addEventListener('click', function () {
     menulogo.classList.toggle('appear');
     // make background dissapear
     logoback.classList.toggle('dissapear');
+    // stop the scroll
+    bodybody.classList.toggle('no-scroll');
 });
 
 // ABOUT SECTION
@@ -101,4 +108,8 @@ menubuttonabout.addEventListener('click', function () {
     buttonxabout.classList.toggle('is-shown');
     // make the About Title dissapear
     abouttitle.classList.toggle('dissapear');
+    // bring in the slide in menu
+    slide_in_about.classList.toggle('slide-in');
+    // stop the scroll
+    bodybody.classList.toggle('no-scroll');
 });

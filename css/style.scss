@@ -120,6 +120,7 @@ $logobackgrey2: #555252;
                         width: 24vw;
                         height: 6vh;
                         margin: 7.5vh 0vh 0 20vw;
+                        margin: 5vh 0vh 0 20vw;
                         // Burger img
                         .mobileburger {
                             position: relative;
@@ -168,6 +169,7 @@ $logobackgrey2: #555252;
                     width: 100%;
                     display: block;
                     background-color: $mainblue;
+                    // background-color: yellow;
                     margin: 20vh 0 0 0;
                     transition: .7s;
                     z-index: 95;
@@ -180,7 +182,8 @@ $logobackgrey2: #555252;
                         }
                     }
                     .mobilelisthome {
-                        margin: 6vh 0 0 14vw;
+                        // margin: 6vh 0 0 14vw;
+                        margin: 6vh 0 0 12vw;
                         a {
                             display: block;
                             text-align: left;
@@ -196,7 +199,7 @@ $logobackgrey2: #555252;
                         display: flex;
                         flex-direction: row;
                         gap: 2vw;
-                        margin: 7vh 0 0 14vw;
+                        margin: 7vh 0 0 11vw;
                         img {
                             width: 15vw;
                             height: 15vw;
@@ -352,7 +355,7 @@ $logobackgrey2: #555252;
                         width: 100%;
                         display: block;
                         background-color: $aboutgreen;
-                        margin: 20vh 0 0 0;
+                        margin: 5vh 5vw 0 0;
                         transition: .7s;
                         z-index: 95;
                         .mobilelogoabout {
@@ -364,7 +367,7 @@ $logobackgrey2: #555252;
                             }
                         }
                         .mobilelistabout {
-                            margin: 6vh 0 0 14vw;
+                            margin: 6vh 0 0 12vw;
                             a {
                                 display: block;
                                 text-align: left;
@@ -380,12 +383,15 @@ $logobackgrey2: #555252;
                             display: flex;
                             flex-direction: row;
                             gap: 2vw;
-                            margin: 7vh 0 0 14vw;
+                            margin: 7vh 0 0 11vw;
                             img {
                                 width: 15vw;
                                 height: 15vw;
                             }
                         }
+                    }
+                    .mobile-nav-about.slide-in {
+                        left: 0;
                     }
                     // BOTTOM OF ABOUT SECTION TABLET
                     .bottomaboutmobile {
@@ -423,6 +429,9 @@ $logobackgrey2: #555252;
                     }
                 }
             }
+        }
+        .body.no-scroll {
+            overflow: hidden;
         }
     }
 }

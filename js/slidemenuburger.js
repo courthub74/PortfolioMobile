@@ -128,3 +128,38 @@ menubuttonabout.addEventListener('click', function () {
     // stop the scroll
     bodybody.classList.toggle('no-scroll');
 });
+
+// SKILLS SECTION
+
+// Whole Skills Button
+const menubuttonskills = document.querySelector('.skillshamburgermobile');
+
+// The Close X
+const buttonxskills = document.querySelector('.skillsmobileclose');
+
+// The Hamburger
+const hamburgerskills = document.querySelector('.skillsmobileburger');
+
+// The Slide In Menu
+const slide_in_skills = document.querySelector('.mobile-nav-skills');
+
+// The Page Title
+const skillstitle = document.querySelector('.titleskills');
+
+// add event listener to the whole button
+menubuttonskills.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the skills menu button");
+    // make hamburger dissapear
+    hamburgerskills.classList.toggle('is-pressed');
+    // make button background dissapear
+    menubuttonskills.classList.toggle('is-pressed');
+    // make the close X appear
+    buttonxskills.classList.toggle('is-shown');
+    // make the About Title dissapear
+    skillstitle.classList.toggle('dissapear');
+    // bring in the slide in menu
+    slide_in_skills.classList.toggle('slide-in');
+    // stop the scroll
+    bodybody.classList.toggle('no-scroll');
+});

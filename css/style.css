@@ -346,6 +346,116 @@
     text-align: center;
     font-size: 4vw;
   }
+  * body #skillsmobilecontainer #skillsmobile {
+    background-color: #146166;
+    color: white;
+    height: 215vh;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile {
+    display: flex;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .titleskills {
+    margin: 5vh 0 0 5vh;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .titleskills h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .mobileskills.dissapear {
+    opacity: 0;
+    transition: 0.9s;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #507e81;
+    background-color: #507e81;
+    width: 24vw;
+    height: 6vh;
+    margin: 4.8vh 0vh 0 25vw;
+    border-radius: 40px;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile .skillsmobileburger {
+    position: relative;
+    width: 14vw;
+    height: 14vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile .skillsmobileburger.is-pressed {
+    opacity: 0;
+    transition: 0.9s;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile .skillsmobileclose {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile .skillsmobileclose img {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile .skillsmobileclose.is-shown {
+    opacity: 1;
+    color: white;
+    width: 12vw;
+    height: 12vw;
+    transition: 0.3s;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skillshamburgermobile.is-pressed {
+    border: 1px solid #146166;
+    transition: 0.9s;
+    background-color: #146166;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    background-color: #146166;
+    margin: 5vh 5vw 0 0;
+    transition: 0.7s;
+    z-index: 95;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills .mobilelogoskills {
+    margin: -3vh 0 0 1vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills .mobilelogoskills .navlogoskills {
+    margin: 0 0 0 3vw;
+    width: 40vw;
+    height: 40vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills .mobilelistskills {
+    margin: 6vh 0 0 12vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills .mobilelistskills a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 4vh 0 0 0;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills .slidesocialsmobileskills {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 7vh 0 0 11vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills .slidesocialsmobileskills img {
+    width: 15vw;
+    height: 15vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .mobile-nav-skills.slide-in {
+    left: 0;
+  }
   * .body.no-scroll {
     overflow: hidden;
   }

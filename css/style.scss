@@ -444,7 +444,7 @@ $logobackgrey2: #555252;
                                 font-family: 'Inter', sans-serif;
                             }
                         }
-                        .mobileskills.dissapear {
+                        .titleskills.dissapear {
                             opacity: 0;
                             transition: .9s;
                         }
@@ -541,6 +541,147 @@ $logobackgrey2: #555252;
                     }
                     .mobile-nav-skills.slide-in {
                         left: 0;
+                    }
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
+                    /// Bottom of Skills Section
+                    /// 
+                    .bottomskillsmobile {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        line-height: 1.8;
+                        margin: 2vh 0 0 0;
+                         // First Circles Div
+                         .skillcirclesmobile {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 7vh;
+                        }
+                        // front row of icons
+                        .mobileiconsfirstrow {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 3vw;
+                            margin: 5vh 0 -3vh -4vw;
+                            .html {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 3vh;
+                                width: 10vw;
+                                height: 10vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #html {
+                                    width: 11vw;
+                                    height: 11vw;
+                                }
+                                p {
+                                    // color: white;
+                                    color: white;
+                                    font-size: 3vw;
+                                    opacity: .7;
+                                    // font-weight: bold;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .css {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 3vh;
+                                width: 10vw;
+                                height: 10vw;
+                                gap: 1vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #css {
+                                    width: 11vw;
+                                    height: 11vw;
+                                }
+                                p {
+                                    color: white;
+                                    // color: $languagewhite;
+                                    font-size: 3vw;
+                                    opacity: .7;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .sass {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 3vh;
+                                width: 10vw;
+                                height: 10vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #sass {
+                                    width: 10.5vw;
+                                    height: 10.5vw;
+                                }
+                                p {
+                                    color: white;
+                                    color: $languagewhite;
+                                    font-size: 3vw;
+                                    opacity: .7;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                        // Responsive Design Description
+                        .responsivedesigndescription {
+                            display: flex;
+                            flex-direction: column;
+                            .responsivedesigntitle {
+                                // background-color: yellow;
+                                // margin: -.5vh 0 -5vh 37vw;
+                                margin: 0 0 0 41.5vw;
+                                margin: -2vh 0 0 36vw;
+                                p {
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    font-size: 4.5vw;
+                                }
+                            }
+                            // Titled underline
+                            .underlineresponsediv {
+                                .underlinetablet {
+                                    // margin: 2vh 4vw 0 0;
+                                    margin: 0vh 0 0 0;
+                                    width: 80vw;
+                                    height: 1vh;
+                                    background-color: $mainblue;
+                                    border: none;
+                                    box-shadow: 3px 3px 5px $boxshadowcircles;
+                                }
+                            }
+                        }
                     }
                 }
             }

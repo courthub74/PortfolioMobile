@@ -156,7 +156,7 @@ menubuttonskills.addEventListener('click', function () {
     menubuttonskills.classList.toggle('is-pressed');
     // make the close X appear
     buttonxskills.classList.toggle('is-shown');
-    // make the About Title dissapear
+    // make the About title dissapear
     skillstitle.classList.toggle('dissapear');
     // bring in the slide in menu
     slide_in_skills.classList.toggle('slide-in');

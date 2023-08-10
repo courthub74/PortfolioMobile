@@ -574,6 +574,325 @@
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
   }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -8vh 0 0 0;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 8vh 4vw 0 0;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .reactjs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 50%;
+    padding: 3vh;
+    width: 10vw;
+    height: 10vw;
+    gap: 1vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .reactjs #reactjs {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .reactjs p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .react-native {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 3vh;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .react-native #react-native {
+    width: 11vw;
+    height: 11vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .react-native p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 3vh;
+    width: 10vw;
+    height: 10vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .figma #figma {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdivtablet .iconsuserintrowtablet .figma p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdescription .userinterfacestitle {
+    margin: 2vh 0 2vh 0.5vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdescription .userinterfacestitle p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 5vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .userinterfacesdescription .underlineuserinterfacesdiv .userinterfacelinetablet {
+    margin: -2vh 0 0 0vw;
+    width: 80vw;
+    height: 1vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .scriptingdivmobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh 5vw 0 0;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 14.5vw;
+    height: 14.5vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .javascript #javascript {
+    margin: -1vh 0 0 0;
+    width: 13vw;
+    height: 13vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .javascript p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .python {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 14.5vw;
+    height: 14.5vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .python #python {
+    margin: -1vh 0 0 0;
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .python p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .php {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 14.5vw;
+    height: 14.5vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .php #php {
+    margin: -1vh 0 0 0;
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .iconsthirdrowmobile .php p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .scriptingdescription .scriptingtitle {
+    margin: 2vh 0 -6vh 55vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .scriptingdescription .scriptingtitle p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 5vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .scriptingdescription .underlinescriptingdiv .scriptinglinetablet {
+    margin: 6vh 0 0 0;
+    width: 80vw;
+    height: 1vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .nodejs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .nodejs #nodejs {
+    margin: 0vh 0 0 0;
+    width: 10vw;
+    height: 11vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .nodejs p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .django {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .django #django {
+    margin: 0vh 0 0 0;
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .django p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .laravel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .laravel #laravel {
+    margin: 0vh 0 0 0;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .iconsfourthrowtablet .laravel p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 3vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .webframeworksdescription .serversidetitle {
+    margin: 2vh 0 0 1vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .webframeworksdescription .serversidetitle p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 5vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .webframeworksdivtablet .webframeworksdescription .underlinewebframeworksdiv .webframeworkslinetablet {
+    margin: 0vh 0 0 0vw;
+    width: 80vw;
+    height: 1vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+  }
   * .body.no-scroll {
     overflow: hidden;
   }

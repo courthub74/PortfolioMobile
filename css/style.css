@@ -893,6 +893,114 @@
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
   }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .mongo #mongo {
+    margin: 0vh 0 0 0;
+    width: 3vw;
+    height: 8vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .mongo p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 2.5vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .firebase #firebase {
+    margin: -2vh 0 0 0;
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .firebase p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 2.5vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .postgre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .postgre #postgre {
+    margin: 0vh 0 0 0;
+    width: 8vw;
+    height: 7.5vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .iconsfifthrowmobile .postgre p {
+    color: white;
+    color: #d9e2e2;
+    font-size: 2.5vw;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .databasedescription .databasetitle {
+    margin: 4vh 0 0 34vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .databasedescription .databasetitle p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 4vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .bottomskillsmobile .databasedivmobile .databasedescription .underlinedatabasediv .databaselinetablet {
+    margin: 2vh 0 0 0;
+    width: 80vw;
+    height: 1vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+  }
   * .body.no-scroll {
     overflow: hidden;
   }
